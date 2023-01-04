@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad8287c-4819-4a59-948f-8c15f7182d48" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/chromedriver_win32 (1)107_62.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/chromedriver_win32 (1)22.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/chromedriver_win32 (1)71.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/geckodriver-v0.32.0-win-aarch64.zip" beforeDir="false" />
+    <list default="true" id="cad8287c-4819-4a59-948f-8c15f7182d48" name="Changes" comment="Initial commit]">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chrome/Aula3.PegarNumero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/Aula3.PegarNumero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/Aula_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/Aula_2_Bolinha_Notificacao.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/comando.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/comando.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireFox/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireFox/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireFox/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,6 +278,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Initial commit]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit]" />
   </component>
 </project>

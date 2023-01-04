@@ -91,10 +91,10 @@ class Navegador:
 
 
     def imprimir(self):
-        print(f" =====================================\n Nome: {self.nome_conta} \n Número: {self.n1} \n =============================================")
+        print(f"ESSA CONTA NÃO É COMERCIAL===============\nNome: {self.nome_conta}\nNúmero: {self.n1}\n=============================================")
         self.primeira_msg()
     def imprimir_comercial(self):
-        print(f" ===================================== \n Título: {self.titulo} \n Nome Comercial: {self.nome_conta_comercial} \n Número: {self.n2} \n =============================================")
+        print(f"ESSA CONTA É COMERCIAL==================\nTítulo: {self.titulo}\nNome Comercial: {self.nome_conta_comercial}\nNúmero: {self.n2}\n=============================================")
         self.primeira_msg()
 
 
