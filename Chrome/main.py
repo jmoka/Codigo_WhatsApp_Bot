@@ -102,8 +102,8 @@ class Navegador:
         voltar.click()
         time.sleep(self.tempo)
         if opcao=='1' and self.quantidade_elemento_grupo==0:
-            print('responder contatos')
-            self.buscando_bolinha_notificacao1()
+            print('PEGAR MENSAGEM ENVIADA')
+            self.ler_msg()
         elif opcao=='2' and self.quantidade_elemento_grupo>=1:
             print('responder grupo')
             self.buscando_bolinha_notificacao1()
@@ -119,7 +119,19 @@ class Navegador:
         time.sleep(self.tempo)
         self.buscando_bolinha_notificacao1()
 
+    def ler_msg(self):
+        todas_msg=driver.find_elements(By.CLASS_NAME,'_1Gy50')
+        todas_msg_texto=[e.text for e in todas_msg]
+        self.msg=todas_msg_texto[-1]
+        print('mensagem enviada', self.msg)
+        self.responder_msg()
 
+    def responder_msg(self):
+        campo_texto=driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
+        campo_texto.click()
+        time.sleep(3)
+        campo_texto.send_keys("olá",Keys.ENTER)
+        self.esc()
 
 
     def imprimir(self):
