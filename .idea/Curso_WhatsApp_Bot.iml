@@ -8,6 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="primeiro_projeto_aula" />
     <orderEntry type="module" module-name="Projeto_Sistema_Cadastro_Cliente_Completo" />
+    <orderEntry type="module" module-name="bot" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

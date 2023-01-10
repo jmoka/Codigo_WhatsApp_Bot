@@ -128,39 +128,44 @@ class Navegador:
         self.verificar_palavras_boas_vindas(sql1, sql2)
 
     def verificar_palavras_boas_vindas(self, sql1, sql2):
-        print('verificar_palavras_base')
+        '''BASE DE DADOS BOAS VINDAS'''
+        base_palavras_msg_boasvindas = Metodos.metodo_coleta(sql1).Comite_resultado
+        print('base_palavras_msg_boasvindas',base_palavras_msg_boasvindas)
+        base_palavras_msg_boasvindas1=list(base_palavras_msg_boasvindas)
+        base_palavras_msg_boasvindas2 = str(base_palavras_msg_boasvindas1)
+        self.base_palavras_msg_boasvindas3=unidecode(base_palavras_msg_boasvindas2.lower())
+        print('base_palavras_msg_boasvindas3 CONVERTIDA', self.base_palavras_msg_boasvindas3)
 
-        for palavras_msg_boasvindas in Metodos.metodo_coleta(sql1).Comite_resultado:
-            print('palavras_msg_boasvindas',palavras_msg_boasvindas)
-            palavras_msg_boasvindas1=list(palavras_msg_boasvindas)
-            for palavras_msg_boasvindas2 in palavras_msg_boasvindas1:
-                palavras_msg_boasvindas3=str(palavras_msg_boasvindas2)
-                print('palavras_msg_boasvindas -lista', palavras_msg_boasvindas3)
-                if palavras_msg_boasvindas3 in self.msg:
-                    print('Palavras_msg_boasvindas', palavras_msg_boasvindas3)
-                    self.responder_msg()
-                else:
-                    print('não encontrei a palavra boas vindas')
-                    self.verificar_palavras_saudacao(sql2)
+        for x in self.msg:
+            if x in self.base_palavras_msg_boasvindas3:
+                print('ACHEI A MSG BOAS VINDAS:', x)
+                self.responder_msg()
+        else:
+            print('NÃO ACHEI MSG BOAS VINDAS')
+            self.verificar_palavras_saudacao(sql2)
 
     def verificar_palavras_saudacao(self,sql2):
-        print('verificar_palavras_saudacao')
-        for palavras_msg_saudacao in Metodos.metodo_coleta(sql2).Comite_resultado:
-            print('palavras_msg_saudacao', palavras_msg_saudacao)
-            palavras_msg_saudacao1 = list(palavras_msg_saudacao)
-            for palavras_msg_saudacao2 in palavras_msg_saudacao1:
-                palavras_msg_saudacao3 = str(palavras_msg_saudacao2)
-                print('palavras_msg_saudacao -lista', palavras_msg_saudacao3)
-                if palavras_msg_saudacao3 in self.msg:
-                    print('Palavras_msg_saudacao', palavras_msg_saudacao3)
-                    self.responder_msg1()
-                else:
-                    print('não encontrei a palavra saudacao')
+        '''BASE DE DADOS BOAS VINDAS'''
+        base_verificar_palavras_saudacao = Metodos.metodo_coleta(sql2).Comite_resultado
+        print('base_verificar_palavras_saudacao', base_verificar_palavras_saudacao)
+        base_verificar_palavras_saudacao1 = list(base_verificar_palavras_saudacao)
+        base_verificar_palavras_saudacao2 = str(base_verificar_palavras_saudacao1)
+        self.base_verificar_palavras_saudacao3 = unidecode(base_verificar_palavras_saudacao2.lower())
+        print('base_verificar_palavras_saudacao3 CONVERTIDA', self.base_verificar_palavras_saudacao3)
+
+        for x in self.msg:
+            if x in self.base_verificar_palavras_saudacao3:
+                print('ACHEI A MSG SAUDAÇÃO:', x)
+                self.responder_msg1()
+        else:
+            print('NÃO ACHEI MSG SAUDAÇÃO')
+            self.responder_msg2()
+
     def responder_msg(self):
         campo_texto=driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
         campo_texto.click()
         time.sleep(3)
-        campo_texto.send_keys("olá",Keys.ENTER)
+        campo_texto.send_keys(f'"olá" {self.nome_conta}',Keys.ENTER)
         print('MENSAGEM ENVIADA OLÁ')
         self.esc()
         self.primeira_msg()
@@ -169,7 +174,16 @@ class Navegador:
         campo_texto = driver.find_element(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
         campo_texto.click()
         time.sleep(3)
-        campo_texto.send_keys("TUDO BEM COM VC?", Keys.ENTER)
+        campo_texto.send_keys(f'"TUDO BEM COM VC? {self.nome_conta}"', Keys.ENTER)
+        print('MENSAGEM ENVIADA TUDO BEM COM VC?')
+        self.esc()
+        self.primeira_msg()
+
+    def responder_msg2(self):
+        campo_texto = driver.find_element(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
+        campo_texto.click()
+        time.sleep(3)
+        campo_texto.send_keys(f'"COMO VC ESTÁ {self.nome_conta}"', Keys.ENTER)
         print('MENSAGEM ENVIADA TUDO BEM COM VC?')
         self.esc()
         self.primeira_msg()
