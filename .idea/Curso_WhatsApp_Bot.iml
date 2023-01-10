@@ -4,9 +4,10 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (Curso_WhatsApp_Bot)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="primeiro_projeto_aula" />
+    <orderEntry type="module" module-name="Projeto_Sistema_Cadastro_Cliente_Completo" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

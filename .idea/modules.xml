@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" filepath="$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Projeto_Sistema_Cadastro_Cliente_Completo/.idea/Projeto_Sistema_Cadastro_Cliente_Completo.iml" filepath="$PROJECT_DIR$/../Projeto_Sistema_Cadastro_Cliente_Completo/.idea/Projeto_Sistema_Cadastro_Cliente_Completo.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/Primeiro_Projeto_Aula/.idea/primeiro_projeto_aula.iml" filepath="$USER_HOME$/PycharmProjects/Primeiro_Projeto_Aula/.idea/primeiro_projeto_aula.iml" />
     </modules>
   </component>

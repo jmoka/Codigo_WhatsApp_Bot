@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad8287c-4819-4a59-948f-8c15f7182d48" name="Changes" comment="Initial commit]">
+      <change afterPath="$PROJECT_DIR$/Chrome/Aula6_Filtar_Sql_like.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chrome/BancoDados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chrome/Conexao_BD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chrome/Mensagens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chrome/Metodos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chrome/teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chrome/Aula5_Responder_Msg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/Aula5_Responder_Msg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chrome/comando.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Chrome/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +52,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jotac/PycharmProjects/Primeiro_Projeto_Aula&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jotac/Documents/GitHub/Curso_WhatsApp_Bot/Chrome&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -55,8 +65,8 @@
       <recent name="C:\Users\jotac\Documents\GitHub\Curso_WhatsApp_Bot\Chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="Aula3.PegarNumero (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Aula7_Filtar_Identifica_msg_enviada">
+    <configuration name="Aula5_Responder_Msg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso_WhatsApp_Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/Aula3.PegarNumero.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/Aula5_Responder_Msg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Aula3.PegarNumero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Aula6_Filtar_Sql_like" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso_WhatsApp_Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\jotac\Documents\GitHub\Curso_WhatsApp_Bot\Chrome\Aula3.PegarNumero.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/Aula6_Filtar_Sql_like.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Aula4_identificar_gupos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Aula7_Filtar_Identifica_msg_enviada" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso_WhatsApp_Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/Aula4_identificar_gupos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/Aula7_Filtar_Identifica_msg_enviada.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,27 +150,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="comando" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Curso_WhatsApp_Bot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chrome" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/comando.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso_WhatsApp_Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,13 +171,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Curso_WhatsApp_Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chrome" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Aula7_Filtar_Identifica_msg_enviada" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.Aula4_identificar_gupos" />
-        <item itemvalue="Python.Aula3.PegarNumero (1)" />
-        <item itemvalue="Python.comando" />
-        <item itemvalue="Python.Aula3.PegarNumero" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.Aula6_Filtar_Sql_like" />
+        <item itemvalue="Python.Aula5_Responder_Msg" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672937310276</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial commit]">
+      <created>1672970147912</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672970147912</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Initial commit]">
+      <created>1672970231607</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672970231607</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

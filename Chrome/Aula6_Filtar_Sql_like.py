@@ -6,8 +6,7 @@ import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import mysql.connector
-from unidecode import unidecode
-#==========================================================================
+
 class Navegador:
     ''''MÉTODO CONSTRUTOR'''
 
@@ -118,44 +117,36 @@ class Navegador:
     def ler_msg(self):
         todas_msg=driver.find_elements(By.CLASS_NAME,'_1Gy50')
         todas_msg_texto=[e.text for e in todas_msg]
-        self.msg=unidecode(todas_msg_texto[-1].lower()).split() # transforma a instrig
-        print('MENSAGEM EVIADA DIVIDIDA', self.msg)
+        self.msg=todas_msg_texto[-1]
+        print('mensagem enviada', self.msg)
 
-        sql1 = f'''select boas_vindas from palavras_chaves; '''
+        print('MENSAGEM PPARA A CONSULTA', self.msg)
 
-        sql2 = f'''select saudacao from palavras_chaves; '''
+        sql1 = f'''select * from palavras_chaves
+               where boas_vindas like '%{self.msg}%'; '''
 
-        self.verificar_palavras_boas_vindas(sql1, sql2)
+        sql2 = f'''select * from palavras_chaves
+               where saudacao like '%{self.msg}%'; '''
 
-    def verificar_palavras_boas_vindas(self, sql1, sql2):
-        print('verificar_palavras_base')
+        self.verificar_msg_enviada(sql1, sql2)
+    def verificar_msg_enviada(self, sql1, sql2):
+        i = []
+        for i in Metodos.metodo_coleta(sql1).Comite_resultado:
+            print('iiiiiii', i)
+            conta_i=len(i)
+            print('iiii', i)
+            if conta_i >0:
+                print('MENSAGEM ENCONTRADA', self.msg)
+                self.responder_msg()
+        for i in Metodos.metodo_coleta(sql2).Comite_resultado:
+            conta_i = len(i)
+            if conta_i >0:
+               print('MENSAGEM ENCONTRADA', self.msg)
+               self.responder_msg1()
+        else:
+            print('NENHUMA MSG ENCONTRADA')
 
-        for palavras_msg_boasvindas in Metodos.metodo_coleta(sql1).Comite_resultado:
-            print('palavras_msg_boasvindas',palavras_msg_boasvindas)
-            palavras_msg_boasvindas1=list(palavras_msg_boasvindas)
-            for palavras_msg_boasvindas2 in palavras_msg_boasvindas1:
-                palavras_msg_boasvindas3=str(palavras_msg_boasvindas2)
-                print('palavras_msg_boasvindas -lista', palavras_msg_boasvindas3)
-                if palavras_msg_boasvindas3 in self.msg:
-                    print('Palavras_msg_boasvindas', palavras_msg_boasvindas3)
-                    self.responder_msg()
-                else:
-                    print('não encontrei a palavra boas vindas')
-                    self.verificar_palavras_saudacao(sql2)
 
-    def verificar_palavras_saudacao(self,sql2):
-        print('verificar_palavras_saudacao')
-        for palavras_msg_saudacao in Metodos.metodo_coleta(sql2).Comite_resultado:
-            print('palavras_msg_saudacao', palavras_msg_saudacao)
-            palavras_msg_saudacao1 = list(palavras_msg_saudacao)
-            for palavras_msg_saudacao2 in palavras_msg_saudacao1:
-                palavras_msg_saudacao3 = str(palavras_msg_saudacao2)
-                print('palavras_msg_saudacao -lista', palavras_msg_saudacao3)
-                if palavras_msg_saudacao3 in self.msg:
-                    print('Palavras_msg_saudacao', palavras_msg_saudacao3)
-                    self.responder_msg1()
-                else:
-                    print('não encontrei a palavra saudacao')
     def responder_msg(self):
         campo_texto=driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
         campo_texto.click()
