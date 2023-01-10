@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad8287c-4819-4a59-948f-8c15f7182d48" name="Changes" comment="Initial commit]">
-      <change afterPath="$PROJECT_DIR$/Chrome/Aula6_Filtar_Sql_like.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chrome/BancoDados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chrome/Conexao_BD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chrome/Mensagens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chrome/Metodos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chrome/teste.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Curso_WhatsApp_Bot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/Aula5_Responder_Msg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/Aula5_Responder_Msg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/comando.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chrome/Aula7_Filtar_Identifica_msg_enviada.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome/Aula7_Filtar_Identifica_msg_enviada.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672970231607</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial commit]">
+      <created>1673394444144</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673394444144</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

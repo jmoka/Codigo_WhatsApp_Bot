@@ -156,11 +156,13 @@ class Navegador:
                     self.responder_msg1()
                 else:
                     print('não encontrei a palavra saudacao')
+                    self.responder_msg2()
+
     def responder_msg(self):
         campo_texto=driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
         campo_texto.click()
         time.sleep(3)
-        campo_texto.send_keys("olá",Keys.ENTER)
+        campo_texto.send_keys(f'"olá" {self.nome_conta}',Keys.ENTER)
         print('MENSAGEM ENVIADA OLÁ')
         self.esc()
         self.primeira_msg()
@@ -169,7 +171,16 @@ class Navegador:
         campo_texto = driver.find_element(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
         campo_texto.click()
         time.sleep(3)
-        campo_texto.send_keys("TUDO BEM COM VC?", Keys.ENTER)
+        campo_texto.send_keys(f'"TUDO BEM COM VC? {self.nome_conta}"', Keys.ENTER)
+        print('MENSAGEM ENVIADA TUDO BEM COM VC?')
+        self.esc()
+        self.primeira_msg()
+
+    def responder_msg2(self):
+        campo_texto = driver.find_element(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[1]/p')
+        campo_texto.click()
+        time.sleep(3)
+        campo_texto.send_keys(f'"COMO VC ESTÁ {self.nome_conta}"', Keys.ENTER)
         print('MENSAGEM ENVIADA TUDO BEM COM VC?')
         self.esc()
         self.primeira_msg()
