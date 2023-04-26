@@ -19,10 +19,10 @@ class Comando_inicial:
         self.driver.get(self.site)
     def iniciar(self):
         while (len(driver.find_elements(By.ID, 'side')) < 1):
-            time.sleep(1) #"padrão 1"
+            time.sleep(2) #"padrão 1"
         else:
             print('QR-COD ABERTO')
-            time.sleep(1) #"padrão 2"
+            time.sleep(2) #"padrão 2"
             self.comando_iniciar()
 
 
